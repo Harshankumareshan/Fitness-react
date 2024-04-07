@@ -49,9 +49,9 @@
   }
   
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 768px), (min-width: 320px) {
     .title {
-      margin-top: 102rem;
+      margin-top: 60rem;
        /* Decrease margin between title and images */
     }
     .image-container {
