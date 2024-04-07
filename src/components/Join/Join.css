@@ -57,9 +57,9 @@
     color: white;
 }
 /* Media query for screens with max-width of 768px */
-@media screen and (max-width: 768px), (min-width: 320px){
+@media screen and (max-width: 392px), (min-width: 320px){
     .Join {
-        margin-top: 50%;
+        margin-top: 60%;
       flex-direction: column; /* Stack elements vertically */
       gap: 2rem; /* Add gap between elements */
       align-items: center; /* Center-align elements */
