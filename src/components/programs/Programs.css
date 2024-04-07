@@ -8,9 +8,9 @@
 
 .programs-header{
     display: flex;
-    gap: 5rem;
+    gap: 2rem;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.5rem;
     justify-content: center;
     color: rgb(239, 239, 239);
     text-transform: uppercase;
@@ -61,7 +61,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 700px){
    .programs-header{
     flex-direction: column;
     gap: 1rem;

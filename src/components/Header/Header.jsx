@@ -31,7 +31,7 @@ const Header = () => {
         <li onClick={()=>setMenuOpened(false)}>Programs</li>
         <li onClick={()=>setMenuOpened(false)}>why us</li>
         <li onClick={()=>setMenuOpened(false)}>Plans</li>
-        <li onClick={()=>setMenuOpened(false)}>Meet The Experts</li>
+        <li onClick={()=>setMenuOpened(false)}>Experts</li>
     </ul>
   )}
     </div>

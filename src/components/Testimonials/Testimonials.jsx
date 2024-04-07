@@ -8,7 +8,7 @@ const Testimonials = () => {
 
   return (
     <div className="container">
-      <h1 className="title">AC Doctors</h1>
+      <h1 className="title">Our Experts</h1>
       <div className="image-container">
     <div className="image">
       <img src={timage1} alt="" />

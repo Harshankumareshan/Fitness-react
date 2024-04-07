@@ -81,7 +81,7 @@
     width: 2.5rem;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 700px){
     .Reasons{
         flex-direction: column;
     }
