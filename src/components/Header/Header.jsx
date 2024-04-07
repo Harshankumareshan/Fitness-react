@@ -29,7 +29,7 @@ const Header = () => {
     <ul className='header-menu'>
         <li onClick={()=>setMenuOpened(false)}>Home</li>
         <li onClick={()=>setMenuOpened(false)}>Programs</li>
-        <li onClick={()=>setMenuOpened(false)}>why us</li>
+        <li onClick={()=>setMenuOpened(false)}>About</li>
         <li onClick={()=>setMenuOpened(false)}>Plans</li>
         <li onClick={()=>setMenuOpened(false)}>Experts</li>
     </ul>
