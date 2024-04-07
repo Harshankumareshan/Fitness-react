@@ -1,0 +1,71 @@
+.Join{
+    display: flex;
+    padding: 0 2rem;
+    gap: 22rem;
+
+
+}
+.left-j{
+    color: black;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.left-j>hr{
+    position: absolute;
+    width: 15.5rem;
+    border: 4px solid var(--orange);
+    border-radius: 20%;
+    margin: -10px 0;
+}
+
+.left-j>div{
+    display: flex;
+    gap: 1rem;
+}
+
+.right-j {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.email-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: gray;
+    padding: 2rem 2rem;
+    width: 15rem;
+    height: 18rem;
+}
+
+.email-container > input {
+    background-color: transparent;
+    
+    outline: black;
+    color: var(--lightgray);
+}
+
+.email-container > input::placeholder {
+    color: var(--lightgray);
+}
+
+.btn-j {
+    background-color: var(--orange);
+    color: white;
+}
+/* Media query for screens with max-width of 768px */
+@media screen and (max-width: 768px) {
+    .Join {
+        margin-top: 50%;
+      flex-direction: column; /* Stack elements vertically */
+      gap: 2rem; /* Add gap between elements */
+      align-items: center; /* Center-align elements */
+    }
+  
+    .right-j {
+      margin-top: 2rem; /* Add margin to separate form from span text */
+    }
+  }
