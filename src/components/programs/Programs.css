@@ -61,7 +61,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 392px), (min-width: 320px){
+@media screen and (max-width: 768px){
    .programs-header{
     flex-direction: column;
     gap: 1rem;
